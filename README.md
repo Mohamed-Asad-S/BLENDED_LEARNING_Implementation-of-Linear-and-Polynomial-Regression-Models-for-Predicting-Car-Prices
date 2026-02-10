@@ -16,14 +16,13 @@ To write a program to predict car prices using Linear Regression and Polynomial 
 5. Visualization: Plot the regression lines for both Linear and Polynomial models. Visualize residuals to assess model performance.
 
 ## Program:
+
 ```
-/*
 Program to implement Linear and Polynomial Regression models for predicting car prices.
 Developed by: Mohamed Asad S
 RegisterNumber:  212225040238
-*/
 
-```
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
@@ -76,7 +75,8 @@ plt.title("Linear vs Polynomial Regression")
 plt.legend()
 plt.show()
 ```
-```
+
+
 
 ## Output:
 ![alt text](<Screenshot 2026-02-10 141203.png>)
